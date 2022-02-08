@@ -16,3 +16,9 @@ To predict valence/arousal label, 2 files are required.<br/>
 
 old_emo and current_emo represent current emotion and next emotion, respectively. Similarly, old_img and curr_img represents the name of image file corresponding to the current and next emotion label. The elap_time is the elapsed time between current emotion and next emotion label in hour.<br/>
 2. Facial feature file located in subfolder within the FacialData folder. <br/>
+# Run the code
+To run the code, specify
+* user_no. 
+* input files name.
+* run the code block written for a particuler image analysis tool to list facial features it returns.
+* In the last code block, comment or uncomment specific lines of the code to select feature reduction tool.
