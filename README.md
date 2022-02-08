@@ -12,5 +12,5 @@ To predict valence/arousal label, 2 files are required.<br/>
 |old_emo|current_emo|old_img|curr_img|elap_time|
 |-------|:-----------:|-------:|--------:|---------|
 |1	|1	|user_12/IMG_20210902_150844.jpg|	user_12/IMG_20210902_172538.jpg|	2.28154166666667|
-|1	|0	|user_12/IMG_20210902_172538.jpg|	user_12/IMG_20210902_194304.jpg	2.29043722222222|
+|1	|0	|user_12/IMG_20210902_172538.jpg|	user_12/IMG_20210902_194304.jpg|	2.29043722222222|
 
