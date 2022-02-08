@@ -8,6 +8,7 @@ How to use the framework SELFI to predict the future emotion labels.<br/>
 # Input Files
 To predict valence/arousal label, 2 files are required.<br/>
 1. self-report file located in Valence and Arousal folder to predict valence and arousal label, respectively. It has the following format:<br/>
+
 |old_emo|current_emo|old_img|curr_img|elap_time|
 |-------|:-----------:|-------:|--------:|---------|
 |1	|1	|user_12/IMG_20210902_150844.jpg|	user_12/IMG_20210902_172538.jpg|	2.28154166666667|
