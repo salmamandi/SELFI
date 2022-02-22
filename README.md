@@ -1,5 +1,5 @@
 # SELFI 
-How to use the framework SELFI to predict the future emotion labels.<br/>
+SELFI is a framework to predict the future emotion labels from past emotion labels and the current facial image.<br/>
 # File Structure
 * The code file self_report.ipynb is the implementation of the framework.<br/>
 * The Data folder contain two folders: <br/>
