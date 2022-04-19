@@ -24,14 +24,14 @@ To run the code, specify
 * In the last code block, comment or uncomment specific lines of the code to select feature reduction tool.
 # Pipeline for Data Preparation
 Use files in FileProcessing folder to extract features from image using different tool: Amazon Rekognition, Google Vision, Microsoft Azure. <br/>
-* **Prepare data using Amazon Rekognition**<br/>
+**Prepare data using Amazon Rekognition**<br/>
 * run GetFeatures_AWS.ipynb to extract features from image. <br/>
 * run data_preprocessing.ipynb to break the composite features into simple feature.<br/>
 * run data_encoding.ipynb to encode the categorical features.<br/>
-* **Prepare data using Google Vision**<br/>
+**Prepare data using Google Vision**<br/>
 * run GetFeatures_Vision.ipynb to extract features from image. <br/>
 * run BreakingComplexFeatureVision.ipynb to break the composite features into simple feature.<br/>
-* **Prepare data using Microsoft Azure**<br/>
+**Prepare data using Microsoft Azure**<br/>
 * run GetFeatures_Azure.ipynb to extract features from image. <br/>
 * run BreakingComplexFeaturesAzure.ipynb to break the composite features into simple feature.<br/>
 
