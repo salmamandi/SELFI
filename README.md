@@ -28,10 +28,10 @@ Use files in FileProcessing folder to extract features from image using differen
 * run GetFeatures_AWS.ipynb to extract features from image. <br/>
 * run data_preprocessing.ipynb to break the composite features into simple feature.<br/>
 * run data_encoding.ipynb to encode the categorical features. <br/>
-**Prepare data using Google Vision** <br/>
+**Prepare data using Google Vision** 
 * run GetFeatures_Vision.ipynb to extract features from image. <br/>
 * run BreakingComplexFeatureVision.ipynb to break the composite features into simple feature. <br/>
-**Prepare data using Microsoft Azure** <br/>
+**Prepare data using Microsoft Azure** 
 * run GetFeatures_Azure.ipynb to extract features from image. <br/>
 * run BreakingComplexFeaturesAzure.ipynb to break the composite features into simple feature.<br/>
 
