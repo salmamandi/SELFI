@@ -23,7 +23,7 @@ To run the code, specify
 * run the code block written for a particuler image analysis tool to list facial features it returns.
 * In the last code block, comment or uncomment specific lines of the code to select feature reduction tool.
 # Pipeline for Data Preparation
-Use files in FileProcessing folder to extract features from image using different tool: Amazon Rekognition, Google Vision, Microsoft Azure. <br/>
+Use files in FileProcessing folder to extract features from image using different tool: Amazon Rekognition, Google Vision, Microsoft Azure. 
 **Prepare data using Amazon Rekognition** <br/>
 * run GetFeatures_AWS.ipynb to extract features from image. <br/>
 * run data_preprocessing.ipynb to break the composite features into simple feature.<br/>
