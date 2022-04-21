@@ -4,7 +4,8 @@ SELFI is a framework to predict the future emotion labels from past emotion labe
 * The code file self_report.ipynb is the implementation of the framework.<br/>
 * The Data folder contain two folders: <br/>
 1. FacialData contain 3 folders for Amazon, Google and Microsoft image analysis tool. Each of these folders contain a file that stores facial feature values for each image of a particular user.<br/>
-2. Self_reports folder contain 2 folders (Valence and Arousal) , where each folder has a file contain the sequence of self-reports for a particuler user. <br/>  
+2. Self_reports folder contain 2 folders (Valence and Arousal) , where each folder has a file contain the sequence of self-reports for a particuler user. <br/>
+* File_Processing folder contain codes to extract features from images using different tool.  
 # Input Files
 To predict valence/arousal label, 2 files are required.<br/>
 1. self-report file located in Valence and Arousal folder to predict valence and arousal label, respectively. It has the following format:<br/>
