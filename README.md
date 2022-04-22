@@ -14,8 +14,8 @@ To predict emotion self-reportlabel (valence/arousal), 2 files are required.<br/
 
 |past_emo|current_emo|curr_img|elap_time|
 |-------|:-----------:|--------:|---------|
-|1	|1	|	user_12/IMG_20210902_172538.jpg|	2.28154166666667|
-|1	|0	| user_12/IMG_20210902_194304.jpg|	2.29043722222222|
+|1	|1	|user_12/IMG_20210902_172538.jpg  |	2.28154166666667|
+|1	|0	|user_12/IMG_20210902_194304.jpg  |	2.29043722222222|
 
 old_emo and current_emo represent current emotion and next emotion, respectively. Similarly, old_img and curr_img represents the name of image file corresponding to the current and next emotion label. The elap_time is the elapsed time between current emotion and next emotion label in hour.<br/>
 2. Facial feature file located in subfolder within the FacialData folder. <br/>
