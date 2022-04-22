@@ -12,7 +12,7 @@ SELFI is a framework to predict the future emotion self-report labels from past 
 To predict emotion self-reportlabel (valence/arousal), 2 files are required.<br/>
 1. self-report file located in Valence and Arousal folder to predict valence and arousal self-report label, respectively. It has the following format:<br/>
 
-|past_emo|current_emo|curr_img|elap_time|
+|past_emo|current_emo|curr_img_id|elap_time|
 |-------|:-----------:|--------:|---------|
 |1	|1	|user_12/IMG_20210902_172538.jpg  |	2.28154166666667|
 |1	|0	|user_12/IMG_20210902_194304.jpg  |	2.29043722222222|
