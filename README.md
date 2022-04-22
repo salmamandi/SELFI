@@ -9,13 +9,13 @@ SELFI is a framework to predict the future emotion self-report labels from past 
 2. Self_reports folder contain 2 folders (Valence and Arousal) , where each folder has a file contain the sequence of self-reports for a particuler user. <br/>
 * File_Processing folder contain codes to extract features from images using different tool.  
 # Input Files
-To predict valence/arousal label, 2 files are required.<br/>
-1. self-report file located in Valence and Arousal folder to predict valence and arousal label, respectively. It has the following format:<br/>
+To predict emotion self-reportlabel (valence/arousal), 2 files are required.<br/>
+1. self-report file located in Valence and Arousal folder to predict valence and arousal self-report label, respectively. It has the following format:<br/>
 
-|old_emo|current_emo|old_img|curr_img|elap_time|
-|-------|:-----------:|-------:|--------:|---------|
-|1	|1	|user_12/IMG_20210902_150844.jpg|	user_12/IMG_20210902_172538.jpg|	2.28154166666667|
-|1	|0	|user_12/IMG_20210902_172538.jpg|	user_12/IMG_20210902_194304.jpg|	2.29043722222222|
+|past_emo|current_emo|curr_img|elap_time|
+|-------|:-----------:|--------:|---------|
+|1	|1	|	user_12/IMG_20210902_172538.jpg|	2.28154166666667|
+|1	|0	| user_12/IMG_20210902_194304.jpg|	2.29043722222222|
 
 old_emo and current_emo represent current emotion and next emotion, respectively. Similarly, old_img and curr_img represents the name of image file corresponding to the current and next emotion label. The elap_time is the elapsed time between current emotion and next emotion label in hour.<br/>
 2. Facial feature file located in subfolder within the FacialData folder. <br/>
