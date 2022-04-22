@@ -1,5 +1,5 @@
 # SELFI 
-SELFI is a framework to predict the future emotion labels from past emotion labels and the current facial image.<br/>
+SELFI is a framework to predict the future emotion self-report labels from past emotion self-report labels and the current facial image. It takes past self-report label and current facial image as input. It consists of two different input blocks. In the first block, it calculates self-report features based on the past self-reported label. In the second block, it takes facial image and extract all facial landmarks as facial features. Then feature reduction tool is applied which reduces the dimension of features. Finally, it leverages the extracted self-reported features and facial features to develop a machine learning model which predicts emotion label at time instance. <br/>
 # File Structure
 * The code file self_report.ipynb is the implementation of the framework.<br/>
 * The Data folder contain two folders: <br/>
